@@ -13,7 +13,7 @@
 }
 
 .node text {
-  font: 10px sans-serif;
+  font: 18px sans-serif;
 }
 
 .link {
@@ -45,7 +45,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + 300 + "," + margin.top + ")");
 
 
 d3.json("jsonTree.json", function(error, flare) {
@@ -136,11 +136,6 @@ function update(source) {
         return diagonal({source: o, target: o});
       });
 
-  // link.enter().insert("path", "g")
-  //  .attr("class", "link")
-  //  .style("stroke", function(d) { return d.target.level; })
-  //  .attr("d", diagonal);
-
   // Transition links to their new position.
   link.transition()
       .duration(duration)
@@ -173,7 +168,6 @@ function click(d) {
   }
   update(d);
 }
-
 
 
 </script>
