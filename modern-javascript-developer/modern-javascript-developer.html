@@ -2,18 +2,16 @@
 <meta charset="utf-8">
 <style>
 
-.node {
-  cursor: pointer;
-}
-
 .node circle {
   fill: #fff;
   stroke: steelblue;
   stroke-width: 1.5px;
+  cursor: pointer;
 }
 
 .node text {
   font: 18px sans-serif;
+  /* cursor: pointer; */
 }
 
 .link {
@@ -40,6 +38,8 @@ var tree = d3.layout.tree()
 
 var diagonal = d3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
+
+// The next block of code appends our SVG working area to the body of our web page and creates a group elements (<g>) that will contain our svg objects (our nodes, text and links).
 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.right + margin.left)
@@ -86,11 +86,13 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-      .on("click", click);
+      //.on("click", click)
+      ;
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; })
+      .on("click", click);
 
   nodeEnter.append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
