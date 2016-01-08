@@ -3,81 +3,91 @@
  "children": [
   {
    "name": "Testing",
+   "level": "#f40000",
    "children": [
     {
      "name": "Unit Testing",
+     "level": "#f40000",
      "children": [
-      {"name": "Jasmine", "size": 743}
+      {"name": "Jasmine", "level": "#f40000", "size": 743}
      ]
     },
     {
      "name": "Functional Testing",
+     "level": "#f40000",
      "children": [
-      {"name": "Jest", "size": 3416}
+      {"name": "Jest", "level": "#f40000", "size": 3416}
      ]
     }
    ]
   },
   {
    "name": "Scope",
+   "level": "#572100",
    "children": [
-    {"name": "this", "size": 17010},
-    {"name": "Execution Context", "size": 5842},
-    {"name": "Closures", "size": 1041}
+    {"name": "this", "level": "#572100", "size": 17010},
+    {"name": "Execution Context", "level": "#572100", "size": 5842},
+    {"name": "Closures", "level": "#572100", "size": 1041}
    ]
   },
   {
    "name": "Automation",
+   "level": "#008d89",
    "children": [
     {
      "name": "Task Automation",
+     "level": "#008d89",
      "children": [
-      {"name": "Grunt", "size": 721},
-      {"name": "Gulp", "size": 4294},
-      {"name": "npm", "size": 2220}
+      {"name": "Grunt", "level": "#008d89", "size": 721},
+      {"name": "Gulp", "level": "#008d89", "size": 4294},
+      {"name": "npm", "level": "#008d89", "size": 2220}
      ]
     },
-    {"name": "Build Automation", "size": 1759}
+    {"name": "Build Automation", "level": "#008d89", "size": 1759}
    ]
   },
   {
    "name": "Package Managers",
+   "level": "#79c5c2",
    "children": [
-    {"name": "Homebrew", "size": 8833},
-    {"name": "Chocolatey", "size": 1732},
-    {"name": "Apt-get", "size": 3623},
-    {"name": "Bower", "size": 10066},
-    {"name": "npm", "size": 10066}
+    {"name": "Homebrew", "level": "#79c5c2", "size": 8833},
+    {"name": "Chocolatey", "level": "#79c5c2", "size": 1732},
+    {"name": "Apt-get", "level": "#79c5c2", "size": 3623},
+    {"name": "Bower", "level": "#79c5c2", "size": 10066},
+    {"name": "npm", "level": "#79c5c2", "size": 10066}
    ]
   },
   {
    "name": "ECMA Script 6",
+   "level": "#838f00",
    "children": [
-    {"name": "Intro to Babel", "size": 4116},
-    {"name": "let/const", "size": 4116},
-    {"name": "Arrow Functions", "size": 4116},
-    {"name": "Default Parameters", "size": 4116},
-    {"name": "String Interpolation", "size": 4116},
-    {"name": "Object Property Shorthand", "size": 4116},
-    {"name": "Class", "size": 4116},
-    {"name": "Modules", "size": 4116},
-    {"name": "Promises", "size": 4116}
+    {"name": "Intro to Babel", "level": "#838f00", "size": 4116},
+    {"name": "let/const", "level": "#838f00", "size": 4116},
+    {"name": "Arrow Functions", "level": "#838f00", "size": 4116},
+    {"name": "Default Parameters", "level": "#838f00", "size": 4116},
+    {"name": "String Interpolation", "level": "#838f00", "size": 4116},
+    {"name": "Object Property Shorthand", "level": "#838f00", "size": 4116},
+    {"name": "Class", "level": "#838f00", "size": 4116},
+    {"name": "Modules", "level": "#838f00", "size": 4116},
+    {"name": "Promises", "level": "#838f00", "size": 4116}
    ]
   },
   {
    "name": "Complex Relationships",
+   "level": "#ffc500",
    "children": [
-    {"name": "Object Instances", "size": 1082},
-    {"name": "Inheritance", "size": 1336},
-    {"name": "Composition", "size": 319}
+    {"name": "Object Instances", "level": "#ffc500", "size": 1082},
+    {"name": "Inheritance", "level": "#ffc500", "size": 1336},
+    {"name": "Composition", "level": "#ffc500", "size": 319}
    ]
   },
   {
    "name": "Functional Programming",
+   "level": "#ff1a00",
    "children": [
-    {"name": "lodash", "size": 1616},
-    {"name": "Partial Function Application", "size": 1027},
-    {"name": "Function Currying", "size": 3891}
+    {"name": "lodash", "level": "#ff1a00", "size": 1616},
+    {"name": "Partial Function Application", "level": "#ff1a00", "size": 1027},
+    {"name": "Function Currying", "level": "#ff1a00", "size": 3891}
    ]
   }
  ]

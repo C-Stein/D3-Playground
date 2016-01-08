@@ -130,10 +130,16 @@ function update(source) {
   // Enter any new links at the parent's previous position.
   link.enter().insert("path", "g")
       .attr("class", "link")
+      .style("stroke", function(d) { return d.target.level; })
       .attr("d", function(d) {
         var o = {x: source.x0, y: source.y0};
         return diagonal({source: o, target: o});
       });
+
+  // link.enter().insert("path", "g")
+  //  .attr("class", "link")
+  //  .style("stroke", function(d) { return d.target.level; })
+  //  .attr("d", diagonal);
 
   // Transition links to their new position.
   link.transition()
@@ -167,5 +173,7 @@ function click(d) {
   }
   update(d);
 }
+
+
 
 </script>
