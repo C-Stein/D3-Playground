@@ -55,11 +55,151 @@
   {
     "name": "Single Page Applications",
     "children": [
-
+      {
+        "name": "Logic & Style",
+        "level": "#f40000",
+        "children": [
+          {"name": "Exercises", "level": "#f40000", "size": 743},
+          {"name": "Quizzes", "level": "#f40000", "size": 743},
+          {"name": "Videos", "level": "#f40000", "size": 743},
+          {"name": "Content", "level": "#f40000", "size": 743}
+         ]
+      },
+      {
+         "name": "Event Driven Programming",
+         "level": "#f40000",
+         "children": [
+          {"name": "Exercises", "level": "#f40000", "size": 743},
+          {"name": "Quizzes", "level": "#f40000", "size": 743},
+          {"name": "Videos", "level": "#f40000", "size": 743},
+          {"name": "Content", "level": "#f40000", "size": 743}
+          ]
+        },
+       {
+         "name": "HTML Layout",
+         "level": "#f40000",
+         "children": [
+          {"name": "Exercises", "level": "#f40000", "size": 743},
+          {"name": "Quizzes", "level": "#f40000", "size": 743},
+          {"name": "Videos", "level": "#f40000", "size": 743},
+          {"name": "Content", "level": "#f40000", "size": 743}
+          ]
+        },
+        {
+         "name": "Git",
+         "level": "#f40000",
+         "children": [
+          {"name": "Exercises", "level": "#f40000", "size": 743},
+          {"name": "Quizzes", "level": "#f40000", "size": 743},
+          {"name": "Videos", "level": "#f40000", "size": 743},
+          {"name": "Content", "level": "#f40000", "size": 743}
+          ]
+        },
+        {
+         "name": "Asynchronous Programming",
+         "level": "#f40000",
+         "children": [
+          {"name": "Exercises", "level": "#f40000", "size": 743},
+          {"name": "Quizzes", "level": "#f40000", "size": 743},
+          {"name": "Videos", "level": "#f40000", "size": 743},
+          {"name": "Content", "level": "#f40000", "size": 743}
+          ]
+        }
     ]
   },
   {
-    "name": "Modern Javascript Developer"
+    "name": "Modern Javascript Developer",
+    "children": [
+  {
+   "name": "Testing",
+   "level": "#f40000",
+   "children": [
+    {
+     "name": "Unit Testing",
+     "level": "#f40000",
+     "children": [
+      {"name": "Jasmine", "level": "#f40000", "size": 743}
+     ]
+    },
+    {
+     "name": "Functional Testing",
+     "level": "#f40000",
+     "children": [
+      {"name": "Jest", "level": "#f40000", "size": 3416}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Scope",
+   "level": "#572100",
+   "children": [
+    {"name": "this", "level": "#572100", "size": 17010},
+    {"name": "Execution Context", "level": "#572100", "size": 5842},
+    {"name": "Closures", "level": "#572100", "size": 1041}
+   ]
+  },
+  {
+   "name": "Automation",
+   "level": "#008d89",
+   "children": [
+    {
+     "name": "Task Automation",
+     "level": "#008d89",
+     "children": [
+      {"name": "Grunt", "level": "#008d89", "size": 721},
+      {"name": "Gulp", "level": "#008d89", "size": 4294},
+      {"name": "npm", "level": "#008d89", "size": 2220}
+     ]
+    },
+    {"name": "Build Automation", "level": "#008d89", "size": 1759}
+   ]
+  },
+  {
+   "name": "Package Managers",
+   "level": "#79c5c2",
+   "children": [
+    {"name": "Homebrew", "level": "#79c5c2", "size": 8833},
+    {"name": "Chocolatey", "level": "#79c5c2", "size": 1732},
+    {"name": "Apt-get", "level": "#79c5c2", "size": 3623},
+    {"name": "Bower", "level": "#79c5c2", "size": 10066},
+    {"name": "npm", "level": "#79c5c2", "size": 10066}
+   ]
+  },
+  {
+   "name": "ECMA Script 6",
+   "level": "#838f00",
+   "children": [
+    {"name": "Intro to Babel", "level": "#838f00", "size": 4116},
+    {"name": "let/const", "level": "#838f00", "size": 4116},
+    {"name": "Arrow Functions", "level": "#838f00", "size": 4116},
+    {"name": "Default Parameters", "level": "#838f00", "size": 4116},
+    {"name": "String Interpolation", "level": "#838f00", "size": 4116},
+    {"name": "Object Property Shorthand", "level": "#838f00", "size": 4116},
+    {"name": "Class", "level": "#838f00", "size": 4116},
+    {"name": "Modules", "level": "#838f00", "size": 4116},
+    {"name": "Promises", "level": "#838f00", "size": 4116}
+   ]
+  },
+  {
+   "name": "Complex Relationships",
+   "level": "#ffc500",
+   "children": [
+    {"name": "Object Instances", "level": "#ffc500", "size": 1082},
+    {"name": "Inheritance", "level": "#ffc500", "size": 1336},
+    {"name": "Composition", "level": "#ffc500", "size": 319}
+   ]
+  },
+  {
+   "name": "Functional Programming",
+   "level": "#ff1a00",
+   "children": [
+    {"name": "lodash", "level": "#ff1a00", "size": 1616},
+    {"name": "Partial Function Application", "level": "#ff1a00", "size": 1027},
+    {"name": "Function Currying", "level": "#ff1a00", "size": 3891}
+   ]
+  }
+ ]
   },
   {
     "name": "Rich Browser Application",
