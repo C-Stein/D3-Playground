@@ -1,0 +1,130 @@
+{
+ "name": "Front End Web Development",
+ "children": [
+  {
+   "name": "The Static Web",
+   "children": [
+    {
+     "name": "HTML",
+     "level": "#f40000",
+     "children": [
+      {"name": "Exercises", "level": "#f40000", "size": 743},
+      {"name": "Quizzes", "level": "#f40000", "size": 743},
+      {"name": "Videos", "level": "#f40000", "size": 743},
+      {"name": "Content", "level": "#f40000", "size": 743}
+     ]
+    },
+    {
+     "name": "CSS",
+     "level": "#f40000",
+     "children": [
+      {"name": "Exercises", "level": "#f40000", "size": 743},
+      {"name": "Quizzes", "level": "#f40000", "size": 743},
+      {"name": "Videos", "level": "#f40000", "size": 743},
+      {"name": "Content", "level": "#f40000", "size": 743}
+     ]
+    },
+    {
+     "name": "Javascript",
+     "level": "#f40000",
+     "children": [
+      {"name": "Exercises", "level": "#f40000", "size": 743},
+      {"name": "Quizzes", "level": "#f40000", "size": 743},
+      {"name": "Videos", "level": "#f40000", "size": 743},
+      {"name": "Content", "level": "#f40000", "size": 743}
+     ]
+    },
+    {
+     "name": "Teamwork Planning",
+     "level": "#f40000",
+     "children": [
+      {"name": "Videos", "level": "#f40000", "size": 743},
+      {"name": "Content", "level": "#f40000", "size": 743}
+     ]
+    },
+    {
+     "name": "The Internet",
+     "level": "#f40000",
+     "children": [
+      {"name": "Videos", "level": "#f40000", "size": 743},
+      {"name": "Content", "level": "#f40000", "size": 743}
+     ]
+    }
+   ]
+  },
+  {
+    "name": "Single Page Applications",
+    "children": [
+
+    ]
+  },
+  {
+    "name": "Modern Javascript Developer"
+  },
+  {
+    "name": "Rich Browser Application",
+    "children": [
+  {
+   "name": "API Concepts",
+   "level": "#f40000",
+   "children": [
+    { "name": "HTTP Verbs", "level": "#f40000"},
+    { "name": "JSON Format", "level": "#f40000"},
+    { "name": "Simple Food API", "level": "#f40000"},
+    { "name": "Public APIs", "level": "#f40000"}
+   ]
+  },
+  {
+   "name": "CSS Preprocessors",
+   "level": "#572100",
+   "children": [
+    {"name": "SASS", "level": "#572100", "size": 17010},
+    {"name": "LESS", "level": "#572100", "size": 5842}
+   ]
+  },
+  {
+   "name": "Component Driven Applications",
+   "level": "#008d89",
+   "children": [
+    {"name": "Angular Directives", "level": "#008d89"},
+    {"name": "React", "level": "#008d89", "size": 1759},
+    {"name": "Web Components", "level": "#008d89"}
+   ]
+  },
+  {
+   "name": "Firebase Concepts",
+   "level": "#79c5c2",
+   "children": [
+    {"name": "Data Snapshots", "level": "#79c5c2", "size": 8833},
+    {"name": "Child Snapshots", "level": "#79c5c2", "size": 1732},
+    {"name": "Iterating Over a Snapshot", "level": "#79c5c2", "size": 3623},
+    {"name": "Flat Structure", "level": "#79c5c2", "size": 10066},
+    {"name": "npm", "level": "#79c5c2", "size": 10066}
+   ]
+  },
+  {
+   "name": "Authentication and Authorization",
+   "level": "#838f00",
+   "children": [
+    {"name": "Firebase Authentication", "level": "#838f00", "size": 4116},
+    {"name": "OAuth", "level": "#838f00", "size": 4116,
+      "children": [
+        {"name": "via Firebase", "level": "#838f00"},
+        {"name": "OAuth.io", "level": "#838f00"}
+      ]}
+   ]
+  },
+  {
+   "name": "Modular Programming",
+   "level": "#ffc500",
+   "children": [
+    {"name": "Handlebars", "level": "#ffc500", "size": 1082},
+    {"name": "Browserify", "level": "#ffc500", "size": 1336},
+    {"name": "BEM", "level": "#ffc500", "size": 319},
+    {"name": "Angular", "level": "#ffc500", "size": 1336}
+   ]
+  }
+ ]
+  }
+  ]
+}
